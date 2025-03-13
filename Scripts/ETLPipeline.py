@@ -5,7 +5,7 @@ from Transaction_processor import TransactionProcessor
  
 # Configure logging
 logging.basicConfig(
-    filename="etl_pipeline.log",
+    filename="logs/etl_pipeline.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
@@ -13,7 +13,7 @@ logging.basicConfig(
 class ETLPipeline:
     """Orchestrates the entire ETL process, including data cleaning, transformation, and storage."""
  
-    def __init__(self, retail_data_path: str, supplier_data_path: str):
+    def __init__(self, retail_data_path: str, supplier_data_path: str, continent_mapping: str):
         """
         Initializes the ETL pipeline by loading the datasets.
         
@@ -21,8 +21,14 @@ class ETLPipeline:
         :param supplier_data_path: Path to the Supplier CSV file.
         """
         try:
-            self.df = pd.read_excel(retail_data_path)
+            self.raw_df = pd.read_excel(retail_data_path)  # Load raw data before cleaning
+            self.raw_df.drop_duplicates(inplace=True)  # Remove duplicate transactions
+            self.df = self.raw_df.copy()
+            
             self.supplier_df = pd.read_csv(supplier_data_path)
+            self.continent_mapping = pd.read_csv(continent_mapping)
+
+
             logging.info("Datasets loaded successfully. Retail data shape: %s, Supplier data shape: %s",
                          self.df.shape, self.supplier_df.shape)
         except Exception as e:
@@ -33,26 +39,30 @@ class ETLPipeline:
         """Executes the full ETL process: data cleaning, transformations, and processing."""
         try:
             logging.info("Starting ETL pipeline...")
- 
+
+
             # Step 1: Data Cleaning
             cleaner = DataCleaner(self.df)
             cleaner.remove_duplicates()
             cleaner.handle_missing_values()
             cleaner.filter_valid_transactions()
-            self.df = cleaner.get_cleaned_data()
-            logging.info("Data cleaning completed. Cleaned data shape: %s", self.df.shape)
- 
+            self.df, self.canceled_df = cleaner.get_cleaned_data()  # Get cleaned and canceled data
+
+            logging.info("Data cleaning completed. Cleaned data shape: %s, Canceled transactions shape: %s",
+                        self.df.shape, self.canceled_df.shape)
+
             # Step 2: Transaction Processing
-            processor = TransactionProcessor(self.df, self.supplier_df)
+            processor = TransactionProcessor(self.df, self.canceled_df, self.supplier_df, self.continent_mapping)
             processor.calculate_total_amount()
             country_sales = processor.group_by_country()
             monthly_stats = processor.aggregate_monthly_data()
             best_product, busiest_hour = processor.calcul_stat_data()
             supplier_sales, uk_2011_sales = processor.aggregate_supplier_data()
- 
+            continent_sales, continent_with_most_cancellations = processor.aggregate_world_data()
+
             logging.info("Transaction processing completed.")
- 
-            # Merge all results into a final dataframe for export
+
+            # Final Data Storage
             self.df["TotalAmount"] = self.df["Quantity"] * self.df["UnitPrice"]
             final_results = {
                 "cleaned_data": self.df,
@@ -61,12 +71,14 @@ class ETLPipeline:
                 "best_product_in_france": best_product,
                 "busiest_transaction_hour": busiest_hour,
                 "supplier_sales": supplier_sales,
-                "uk_2011_supplier_sales": uk_2011_sales
+                "uk_2011_supplier_sales": uk_2011_sales,
+                "continent_sales": continent_sales,
+                "continent_with_most_cancellations": continent_with_most_cancellations
             }
-            
             logging.info("ETL pipeline execution completed successfully.")
+            print(final_results)
             return final_results
- 
+
         except Exception as e:
             logging.error("ETL pipeline execution failed: %s", str(e))
             raise RuntimeError("ETL process failed.") from e
@@ -94,9 +106,11 @@ class ETLPipeline:
             raise RuntimeError("Failed to save Parquet file.") from e
 
 if __name__ == "__main__":
-    etl = ETLPipeline("Online Retail.xlsx", "Supplier.csv")  # Paths to your datasets
+    
+    etl = ETLPipeline("data/Online Retail.xlsx", "data/Supplier.csv","data/continent_mapping_full.csv")  # Paths to your datasets
+    #etl = ETLPipeline("data\onlie retail test.xlsx", "data/Supplier.csv","data/continent_mapping_full.csv")  # Paths to your datasets
     results = etl.run_pipeline()
-    etl.save_as_parquet("processed_data.parquet")
+    etl.save_as_parquet("output/processed_data.parquet")
  
     # Display key results
     print("Best-selling product in France:", results["best_product_in_france"])

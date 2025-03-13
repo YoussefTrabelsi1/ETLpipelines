@@ -7,7 +7,7 @@ warnings.filterwarnings("ignore")
 
 # Configure logging
 logging.basicConfig(
-    filename="data_cleaner.log",
+    filename="logs/data_cleaner.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
@@ -28,16 +28,15 @@ class DataCleaner:
         :param df: Pandas DataFrame containing the raw data.
         """
         self.df = df
+        self.canceled_df = None  # Store canceled transactions separately
         logging.info("DataCleaner initialized with dataset of shape %s", self.df.shape)
  
     def remove_duplicates(self):
         """Remove duplicate rows from the dataset."""
         initial_shape = self.df.shape
         self.df = self.df.drop_duplicates()
-        logging.info(
-            "Removed duplicates: %d rows removed. New shape: %s",
-            initial_shape[0] - self.df.shape[0], self.df.shape
-        )
+        logging.info("Removed duplicates: %d rows removed. New shape: %s",
+                     initial_shape[0] - self.df.shape[0], self.df.shape)
  
     def handle_missing_values(self):
         """
@@ -46,28 +45,23 @@ class DataCleaner:
         - Description: Fill missing product descriptions with 'Unknown'.
         """
         initial_shape = self.df.shape
-        self.df.dropna(subset=["CustomerID","Quantity"], inplace=True)
+        self.df.dropna(subset=["CustomerID", "Quantity"], inplace=True)
         self.df["Description"].fillna("Unknown", inplace=True)
-        logging.info(
-            "Handled missing values: %d rows removed due to missing CustomerID. New shape: %s",
-            initial_shape[0] - self.df.shape[0], self.df.shape
-        )
+        logging.info("Handled missing values: %d rows removed. New shape: %s",
+                     initial_shape[0] - self.df.shape[0], self.df.shape)
+
  
     def filter_valid_transactions(self):
-        """
-        Remove canceled transactions.
-        Transactions with 'InvoiceNo' starting with 'C' are considered cancellations.
-        """
-        initial_shape = self.df.shape
+        """Séparer les transactions annulées au lieu de les supprimer."""
+        self.canceled_df = self.df[self.df["InvoiceNo"].astype(str).str.startswith("C")].copy()
         self.df = self.df[~self.df["InvoiceNo"].astype(str).str.startswith("C")]
-        logging.info(
-            "Filtered valid transactions: %d canceled transactions removed. New shape: %s",
-            initial_shape[0] - self.df.shape[0], self.df.shape
-        )
- 
+        logging.info("Separated canceled transactions. Valid transactions: %s, Canceled transactions: %s",
+                     self.df.shape, self.canceled_df.shape)
+
+
     def get_cleaned_data(self):
-        """Return the cleaned DataFrame."""
-        return self.df
+        """Retourne les données nettoyées et les transactions annulées."""
+        return self.df, self.canceled_df
 
 class DataCleanerTest(unittest.TestCase):
     """Test unitaire pour la classe DataCleaner"""

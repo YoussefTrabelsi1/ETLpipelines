@@ -1,0 +1,288 @@
+2025-03-12 11:28:26,255 - INFO - TransactionProcessor initialized with dataset of shape (4, 8)
+2025-03-12 11:28:26,256 - INFO - Column TotalAmount added successfully.
+2025-03-12 11:28:26,261 - INFO - Monthly statistics calculated.
+2025-03-12 11:28:26,263 - INFO - TransactionProcessor initialized with dataset of shape (4, 8)
+2025-03-12 11:28:26,263 - INFO - Column TotalAmount added successfully.
+2025-03-12 11:28:26,264 - INFO - Description of the most profiting product in France: Produit A
+2025-03-12 11:28:26,265 - INFO - Hour with he biggest nmber of transactions: 8 h
+2025-03-12 11:28:26,268 - INFO - TransactionProcessor initialized with dataset of shape (4, 8)
+2025-03-12 11:28:26,268 - INFO - Column TotalAmount added successfully.
+2025-03-12 11:28:26,270 - INFO - TransactionProcessor initialized with dataset of shape (4, 8)
+2025-03-12 11:28:26,270 - INFO - Column TotalAmount added successfully.
+2025-03-12 11:28:26,270 - INFO - Transactions aggregated by country.
+2025-03-12 11:34:08,094 - INFO - TransactionProcessor initialized with dataset of shape (4, 8)
+2025-03-12 11:34:08,094 - INFO - Column TotalAmount added successfully.
+2025-03-12 11:34:08,099 - INFO - Monthly statistics calculated.
+2025-03-12 11:34:08,101 - INFO - TransactionProcessor initialized with dataset of shape (4, 8)
+2025-03-12 11:34:08,101 - INFO - Column TotalAmount added successfully.
+2025-03-12 11:34:08,102 - INFO - Description of the most profiting product in France: Produit A
+2025-03-12 11:34:08,102 - INFO - Hour with he biggest nmber of transactions: 8 h
+2025-03-12 11:34:08,104 - INFO - TransactionProcessor initialized with dataset of shape (4, 8)
+2025-03-12 11:34:08,104 - INFO - Column TotalAmount added successfully.
+2025-03-12 11:34:08,106 - INFO - TransactionProcessor initialized with dataset of shape (4, 8)
+2025-03-12 11:34:08,106 - INFO - Column TotalAmount added successfully.
+2025-03-12 11:34:08,107 - INFO - Transactions aggregated by country.
+2025-03-12 11:45:43,276 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:45:43,277 - INFO - TotalAmount column added successfully.
+2025-03-12 11:45:43,281 - INFO - Suppliers ranked based on total sales.
+2025-03-12 11:45:43,282 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 11:45:43,284 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:45:43,284 - INFO - TotalAmount column added successfully.
+2025-03-12 11:45:43,285 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:45:43,286 - INFO - TotalAmount column added successfully.
+2025-03-12 11:45:43,286 - INFO - Transactions grouped by country successfully.
+2025-03-12 11:46:18,240 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:46:18,240 - INFO - TotalAmount column added successfully.
+2025-03-12 11:46:18,242 - INFO - Suppliers ranked based on total sales.
+2025-03-12 11:46:18,243 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 11:46:18,247 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:46:18,247 - INFO - TotalAmount column added successfully.
+2025-03-12 11:46:18,248 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:46:18,249 - INFO - TotalAmount column added successfully.
+2025-03-12 11:46:18,249 - INFO - Transactions grouped by country successfully.
+2025-03-12 11:46:29,979 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:46:29,980 - INFO - TotalAmount column added successfully.
+2025-03-12 11:46:29,982 - INFO - Suppliers ranked based on total sales.
+2025-03-12 11:46:29,984 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 11:46:29,988 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:46:29,989 - INFO - TotalAmount column added successfully.
+2025-03-12 11:46:29,990 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:46:29,990 - INFO - TotalAmount column added successfully.
+2025-03-12 11:46:29,991 - INFO - Transactions grouped by country successfully.
+2025-03-12 11:46:53,303 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:46:53,304 - INFO - TotalAmount column added successfully.
+2025-03-12 11:46:53,306 - INFO - Suppliers ranked based on total sales.
+2025-03-12 11:46:53,307 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 11:46:53,309 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:46:53,309 - INFO - TotalAmount column added successfully.
+2025-03-12 11:46:53,310 - INFO - Most profitable product in France: Product A
+2025-03-12 11:46:53,311 - INFO - Busiest transaction hour: 8 h
+2025-03-12 11:46:53,313 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:46:53,314 - INFO - TotalAmount column added successfully.
+2025-03-12 11:46:53,315 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:46:53,315 - INFO - TotalAmount column added successfully.
+2025-03-12 11:46:53,316 - INFO - Transactions grouped by country successfully.
+2025-03-12 11:47:14,586 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:47:14,587 - INFO - TotalAmount column added successfully.
+2025-03-12 11:47:14,590 - INFO - Suppliers ranked based on total sales.
+2025-03-12 11:47:14,592 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 11:47:14,593 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:47:14,594 - INFO - TotalAmount column added successfully.
+2025-03-12 11:47:14,595 - INFO - Most profitable product in France: Product A
+2025-03-12 11:47:14,596 - INFO - Busiest transaction hour: 8 h
+2025-03-12 11:47:14,597 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:47:14,598 - INFO - TotalAmount column added successfully.
+2025-03-12 11:47:14,599 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-12 11:47:14,599 - INFO - TotalAmount column added successfully.
+2025-03-12 11:47:14,600 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:28:03,645 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:28:03,646 - INFO - TotalAmount column added successfully.
+2025-03-13 11:28:03,664 - INFO - Suppliers ranked based on total sales.
+2025-03-13 11:28:03,665 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-13 11:28:03,667 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:28:03,667 - INFO - TotalAmount column added successfully.
+2025-03-13 11:28:03,669 - INFO - Most profitable product in France: Product A
+2025-03-13 11:28:03,670 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:28:03,672 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:28:03,672 - INFO - TotalAmount column added successfully.
+2025-03-13 11:28:03,675 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:28:03,676 - INFO - TotalAmount column added successfully.
+2025-03-13 11:28:03,677 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:37:41,627 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:37:41,627 - INFO - TotalAmount column added successfully.
+2025-03-13 11:37:41,631 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:37:41,631 - INFO - TotalAmount column added successfully.
+2025-03-13 11:37:41,633 - INFO - Most profitable product in France: Product A
+2025-03-13 11:37:41,634 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:37:41,636 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:37:41,637 - INFO - TotalAmount column added successfully.
+2025-03-13 11:37:41,638 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:37:41,639 - INFO - TotalAmount column added successfully.
+2025-03-13 11:37:41,640 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:37:48,718 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:37:48,719 - INFO - TotalAmount column added successfully.
+2025-03-13 11:37:48,723 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:37:48,724 - INFO - TotalAmount column added successfully.
+2025-03-13 11:37:48,724 - INFO - Most profitable product in France: Product A
+2025-03-13 11:37:48,725 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:37:48,727 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:37:48,727 - INFO - TotalAmount column added successfully.
+2025-03-13 11:37:48,730 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:37:48,730 - INFO - TotalAmount column added successfully.
+2025-03-13 11:37:48,731 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:38:30,278 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:38:30,279 - INFO - TotalAmount column added successfully.
+2025-03-13 11:38:30,292 - INFO - Suppliers ranked based on total sales.
+2025-03-13 11:38:30,293 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-13 11:38:30,295 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:38:30,295 - INFO - TotalAmount column added successfully.
+2025-03-13 11:38:30,296 - INFO - Most profitable product in France: Product A
+2025-03-13 11:38:30,297 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:38:30,299 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:38:30,299 - INFO - TotalAmount column added successfully.
+2025-03-13 11:38:30,301 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:38:30,301 - INFO - TotalAmount column added successfully.
+2025-03-13 11:38:30,302 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:38:34,223 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:38:34,224 - INFO - TotalAmount column added successfully.
+2025-03-13 11:38:34,236 - INFO - Suppliers ranked based on total sales.
+2025-03-13 11:38:34,238 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-13 11:38:34,240 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:38:34,240 - INFO - TotalAmount column added successfully.
+2025-03-13 11:38:34,241 - INFO - Most profitable product in France: Product A
+2025-03-13 11:38:34,242 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:38:34,244 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:38:34,244 - INFO - TotalAmount column added successfully.
+2025-03-13 11:38:34,246 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:38:34,246 - INFO - TotalAmount column added successfully.
+2025-03-13 11:38:34,247 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:40:32,195 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:40:32,196 - INFO - TotalAmount column added successfully.
+2025-03-13 11:40:32,214 - INFO - Suppliers ranked based on total sales.
+2025-03-13 11:40:32,216 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-13 11:40:32,218 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:40:32,219 - INFO - TotalAmount column added successfully.
+2025-03-13 11:40:32,221 - INFO - Most profitable product in France: Product A
+2025-03-13 11:40:32,222 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:40:32,223 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:40:32,224 - INFO - TotalAmount column added successfully.
+2025-03-13 11:40:32,226 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:40:32,226 - INFO - TotalAmount column added successfully.
+2025-03-13 11:40:32,228 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:43:28,548 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:43:28,549 - INFO - TotalAmount column added successfully.
+2025-03-13 11:43:28,551 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:43:28,551 - INFO - TotalAmount column added successfully.
+2025-03-13 11:43:28,553 - INFO - Most profitable product in France: Product A
+2025-03-13 11:43:28,554 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:43:28,556 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:43:28,557 - INFO - TotalAmount column added successfully.
+2025-03-13 11:43:28,559 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:43:28,559 - INFO - TotalAmount column added successfully.
+2025-03-13 11:43:28,561 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:44:18,784 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:44:18,785 - INFO - TotalAmount column added successfully.
+2025-03-13 11:44:18,789 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:44:18,790 - INFO - TotalAmount column added successfully.
+2025-03-13 11:44:18,791 - INFO - Most profitable product in France: Product A
+2025-03-13 11:44:18,792 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:44:18,794 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:44:18,794 - INFO - TotalAmount column added successfully.
+2025-03-13 11:44:18,796 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:44:18,797 - INFO - TotalAmount column added successfully.
+2025-03-13 11:44:18,798 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:44:58,089 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:44:58,089 - INFO - TotalAmount column added successfully.
+2025-03-13 11:44:58,119 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:44:58,119 - INFO - TotalAmount column added successfully.
+2025-03-13 11:44:58,121 - INFO - Most profitable product in France: Product A
+2025-03-13 11:44:58,123 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:44:58,125 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:44:58,125 - INFO - TotalAmount column added successfully.
+2025-03-13 11:44:58,127 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:44:58,127 - INFO - TotalAmount column added successfully.
+2025-03-13 11:44:58,129 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:45:42,962 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:45:42,963 - INFO - TotalAmount column added successfully.
+2025-03-13 11:45:43,012 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:45:43,012 - INFO - TotalAmount column added successfully.
+2025-03-13 11:45:43,014 - INFO - Most profitable product in France: Product A
+2025-03-13 11:45:43,016 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:45:43,018 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:45:43,018 - INFO - TotalAmount column added successfully.
+2025-03-13 11:45:43,020 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:45:43,020 - INFO - TotalAmount column added successfully.
+2025-03-13 11:45:43,021 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:45:52,685 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:45:52,686 - INFO - TotalAmount column added successfully.
+2025-03-13 11:45:52,702 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:45:52,703 - INFO - TotalAmount column added successfully.
+2025-03-13 11:45:52,704 - INFO - Most profitable product in France: Product A
+2025-03-13 11:45:52,705 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:45:52,706 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:45:52,707 - INFO - TotalAmount column added successfully.
+2025-03-13 11:45:52,709 - INFO - TransactionProcessor initialized with transaction data of shape (4, 8) and supplier data of shape (4, 2)
+2025-03-13 11:45:52,710 - INFO - TotalAmount column added successfully.
+2025-03-13 11:45:52,711 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:46:57,022 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:46:57,023 - INFO - TotalAmount column added successfully.
+2025-03-13 11:46:57,035 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:46:57,036 - INFO - TotalAmount column added successfully.
+2025-03-13 11:46:57,037 - INFO - Most profitable product in France: Product A
+2025-03-13 11:46:57,038 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:46:57,039 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:46:57,040 - INFO - TotalAmount column added successfully.
+2025-03-13 11:46:57,042 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:46:57,042 - INFO - TotalAmount column added successfully.
+2025-03-13 11:46:57,043 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:48:21,792 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:48:21,793 - INFO - TotalAmount column added successfully.
+2025-03-13 11:48:21,804 - INFO - Supplier aggregation completed. Returning results.
+2025-03-13 11:48:21,807 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:48:21,807 - INFO - TotalAmount column added successfully.
+2025-03-13 11:48:21,808 - INFO - Most profitable product in France: Product A
+2025-03-13 11:48:21,809 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:48:21,812 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:48:21,812 - INFO - TotalAmount column added successfully.
+2025-03-13 11:48:21,814 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:48:21,814 - INFO - TotalAmount column added successfully.
+2025-03-13 11:48:21,815 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:49:57,149 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:49:57,150 - INFO - TotalAmount column added successfully.
+2025-03-13 11:49:57,158 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:49:57,159 - INFO - TotalAmount column added successfully.
+2025-03-13 11:49:57,160 - INFO - Most profitable product in France: Product A
+2025-03-13 11:49:57,162 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:49:57,164 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:49:57,165 - INFO - TotalAmount column added successfully.
+2025-03-13 11:49:57,167 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:49:57,168 - INFO - TotalAmount column added successfully.
+2025-03-13 11:49:57,170 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:52:45,130 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:52:45,131 - INFO - TotalAmount column added successfully.
+2025-03-13 11:52:45,138 - INFO - Supplier aggregation completed. Returning results.
+2025-03-13 11:52:45,141 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:52:45,141 - INFO - TotalAmount column added successfully.
+2025-03-13 11:52:45,142 - INFO - Most profitable product in France: Product A
+2025-03-13 11:52:45,143 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:52:45,145 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:52:45,145 - INFO - TotalAmount column added successfully.
+2025-03-13 11:52:45,147 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:52:45,147 - INFO - TotalAmount column added successfully.
+2025-03-13 11:52:45,148 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:53:08,930 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:53:08,931 - INFO - TotalAmount column added successfully.
+2025-03-13 11:53:08,943 - INFO - Supplier aggregation completed. Returning results.
+2025-03-13 11:53:08,945 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:53:08,945 - INFO - TotalAmount column added successfully.
+2025-03-13 11:53:08,947 - INFO - Most profitable product in France: Product A
+2025-03-13 11:53:08,948 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:53:08,951 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:53:08,952 - INFO - TotalAmount column added successfully.
+2025-03-13 11:53:08,953 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:53:08,954 - INFO - TotalAmount column added successfully.
+2025-03-13 11:53:08,955 - INFO - Transactions grouped by country successfully.
+2025-03-13 11:54:18,242 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:54:18,242 - INFO - TotalAmount column added successfully.
+2025-03-13 11:54:18,261 - INFO - Supplier aggregation completed. Returning results.
+2025-03-13 11:54:18,265 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:54:18,265 - INFO - TotalAmount column added successfully.
+2025-03-13 11:54:18,267 - INFO - Most profitable product in France: Product A
+2025-03-13 11:54:18,269 - INFO - Busiest transaction hour: 8 h
+2025-03-13 11:54:18,270 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:54:18,270 - INFO - TotalAmount column added successfully.
+2025-03-13 11:54:18,272 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 11:54:18,273 - INFO - TotalAmount column added successfully.
+2025-03-13 11:54:18,274 - INFO - Transactions grouped by country successfully.
+2025-03-13 12:01:03,237 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 12:01:03,238 - INFO - TotalAmount column added successfully.
+2025-03-13 12:01:03,248 - INFO - Supplier aggregation completed. Returning results.
+2025-03-13 12:01:03,250 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 12:01:03,251 - INFO - TotalAmount column added successfully.
+2025-03-13 12:01:03,252 - INFO - Most profitable product in France: Product A
+2025-03-13 12:01:03,253 - INFO - Busiest transaction hour: 8 h
+2025-03-13 12:01:03,254 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 12:01:03,255 - INFO - TotalAmount column added successfully.
+2025-03-13 12:01:03,258 - INFO - TransactionProcessor initialized with transaction data of shape (4, 7) and supplier data of shape (4, 2)
+2025-03-13 12:01:03,258 - INFO - TotalAmount column added successfully.
+2025-03-13 12:01:03,259 - INFO - Transactions grouped by country successfully.

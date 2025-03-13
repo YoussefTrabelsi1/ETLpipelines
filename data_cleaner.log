@@ -1,0 +1,347 @@
+2025-03-12 10:09:13,903 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:09:13,906 - INFO - Filtered valid transactions: 1 canceled transactions removed. New shape: (4, 8)
+2025-03-12 10:09:13,908 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:09:13,909 - INFO - Removed duplicates: 1 rows removed. New shape: (4, 8)
+2025-03-12 10:09:13,911 - INFO - Handled missing values: 1 rows removed due to missing CustomerID. New shape: (3, 8)
+2025-03-12 10:09:13,911 - INFO - Filtered valid transactions: 0 canceled transactions removed. New shape: (3, 8)
+2025-03-12 10:09:13,913 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:09:13,916 - INFO - Handled missing values: 1 rows removed due to missing CustomerID. New shape: (4, 8)
+2025-03-12 10:09:13,918 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:09:13,919 - INFO - Removed duplicates: 1 rows removed. New shape: (4, 8)
+2025-03-12 10:16:06,225 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:16:06,228 - INFO - Filtered valid transactions: 1 canceled transactions removed. New shape: (4, 8)
+2025-03-12 10:16:06,229 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:16:06,230 - INFO - Removed duplicates: 1 rows removed. New shape: (4, 8)
+2025-03-12 10:16:06,232 - INFO - Handled missing values: 1 rows removed due to missing CustomerID. New shape: (3, 8)
+2025-03-12 10:16:06,233 - INFO - Filtered valid transactions: 0 canceled transactions removed. New shape: (3, 8)
+2025-03-12 10:16:06,234 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:16:06,237 - INFO - Handled missing values: 1 rows removed due to missing CustomerID. New shape: (4, 8)
+2025-03-12 10:16:06,241 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:16:06,242 - INFO - Removed duplicates: 1 rows removed. New shape: (4, 8)
+2025-03-12 10:16:24,614 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:16:24,616 - INFO - Filtered valid transactions: 1 canceled transactions removed. New shape: (4, 8)
+2025-03-12 10:16:24,617 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:16:24,618 - INFO - Removed duplicates: 1 rows removed. New shape: (4, 8)
+2025-03-12 10:16:24,622 - INFO - Handled missing values: 1 rows removed due to missing CustomerID. New shape: (3, 8)
+2025-03-12 10:16:24,623 - INFO - Filtered valid transactions: 0 canceled transactions removed. New shape: (3, 8)
+2025-03-12 10:16:24,624 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:16:24,625 - INFO - Handled missing values: 1 rows removed due to missing CustomerID. New shape: (4, 8)
+2025-03-12 10:16:24,626 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:16:24,626 - INFO - Removed duplicates: 1 rows removed. New shape: (4, 8)
+2025-03-12 10:18:08,254 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:18:08,256 - INFO - Filtered valid transactions: 1 canceled transactions removed. New shape: (4, 8)
+2025-03-12 10:18:08,257 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:18:08,258 - INFO - Removed duplicates: 1 rows removed. New shape: (4, 8)
+2025-03-12 10:18:08,262 - INFO - Handled missing values: 1 rows removed due to missing CustomerID. New shape: (3, 8)
+2025-03-12 10:18:08,262 - INFO - Filtered valid transactions: 0 canceled transactions removed. New shape: (3, 8)
+2025-03-12 10:18:08,263 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:18:08,266 - INFO - Handled missing values: 1 rows removed due to missing CustomerID. New shape: (4, 8)
+2025-03-12 10:18:08,267 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-12 10:18:08,268 - INFO - Removed duplicates: 1 rows removed. New shape: (4, 8)
+2025-03-12 12:01:49,395 - ERROR - Error loading datasets: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-03-12 12:02:55,260 - INFO - Datasets loaded successfully. Retail data shape: (541909, 8), Supplier data shape: (25900, 2)
+2025-03-12 12:02:55,260 - INFO - Starting ETL pipeline...
+2025-03-12 12:02:55,260 - INFO - DataCleaner initialized with dataset of shape (541909, 8)
+2025-03-12 12:02:55,488 - INFO - Removed duplicates: 5268 rows removed. New shape: (536641, 8)
+2025-03-12 12:02:55,537 - INFO - Handled missing values: 135037 rows removed due to missing CustomerID. New shape: (401604, 8)
+2025-03-12 12:02:55,640 - INFO - Filtered valid transactions: 8872 canceled transactions removed. New shape: (392732, 8)
+2025-03-12 12:02:55,648 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8)
+2025-03-12 12:02:55,648 - INFO - TransactionProcessor initialized with transaction data of shape (392732, 8) and supplier data of shape (25900, 2)
+2025-03-12 12:02:55,651 - INFO - TotalAmount column added successfully.
+2025-03-12 12:02:55,671 - INFO - Transactions grouped by country successfully.
+2025-03-12 12:02:55,802 - INFO - Monthly statistics calculated successfully.
+2025-03-12 12:02:55,820 - INFO - Most profitable product in France: POSTAGE
+2025-03-12 12:02:55,845 - INFO - Busiest transaction hour: 12 h
+2025-03-12 12:02:55,907 - ERROR - ETL pipeline execution failed: 'Supplier'
+2025-03-12 12:05:37,319 - INFO - Datasets loaded successfully. Retail data shape: (541909, 8), Supplier data shape: (25900, 2)
+2025-03-12 12:05:37,320 - INFO - Starting ETL pipeline...
+2025-03-12 12:05:37,320 - INFO - DataCleaner initialized with dataset of shape (541909, 8)
+2025-03-12 12:05:37,506 - INFO - Removed duplicates: 5268 rows removed. New shape: (536641, 8)
+2025-03-12 12:05:37,544 - INFO - Handled missing values: 135037 rows removed due to missing CustomerID. New shape: (401604, 8)
+2025-03-12 12:05:37,630 - INFO - Filtered valid transactions: 8872 canceled transactions removed. New shape: (392732, 8)
+2025-03-12 12:05:37,637 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8)
+2025-03-12 12:05:37,637 - INFO - TransactionProcessor initialized with transaction data of shape (392732, 8) and supplier data of shape (25900, 2)
+2025-03-12 12:05:37,640 - INFO - TotalAmount column added successfully.
+2025-03-12 12:05:37,653 - INFO - Transactions grouped by country successfully.
+2025-03-12 12:05:37,752 - INFO - Monthly statistics calculated successfully.
+2025-03-12 12:05:37,763 - INFO - Most profitable product in France: POSTAGE
+2025-03-12 12:05:37,784 - INFO - Busiest transaction hour: 12 h
+2025-03-12 12:05:37,846 - INFO - Suppliers ranked based on total sales.
+2025-03-12 12:05:37,902 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 12:05:37,902 - INFO - Transaction processing completed.
+2025-03-12 12:05:37,905 - INFO - ETL pipeline execution completed successfully.
+2025-03-12 12:05:37,911 - ERROR - Error saving to Parquet: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
+2025-03-12 12:08:13,369 - INFO - Datasets loaded successfully. Retail data shape: (541909, 8), Supplier data shape: (25900, 2)
+2025-03-12 12:08:13,369 - INFO - Starting ETL pipeline...
+2025-03-12 12:08:13,369 - INFO - DataCleaner initialized with dataset of shape (541909, 8)
+2025-03-12 12:08:13,599 - INFO - Removed duplicates: 5268 rows removed. New shape: (536641, 8)
+2025-03-12 12:08:13,644 - INFO - Handled missing values: 135037 rows removed due to missing CustomerID. New shape: (401604, 8)
+2025-03-12 12:08:13,738 - INFO - Filtered valid transactions: 8872 canceled transactions removed. New shape: (392732, 8)
+2025-03-12 12:08:13,745 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8)
+2025-03-12 12:08:13,746 - INFO - TransactionProcessor initialized with transaction data of shape (392732, 8) and supplier data of shape (25900, 2)
+2025-03-12 12:08:13,748 - INFO - TotalAmount column added successfully.
+2025-03-12 12:08:13,766 - INFO - Transactions grouped by country successfully.
+2025-03-12 12:08:13,891 - INFO - Monthly statistics calculated successfully.
+2025-03-12 12:08:13,907 - INFO - Most profitable product in France: POSTAGE
+2025-03-12 12:08:13,936 - INFO - Busiest transaction hour: 12 h
+2025-03-12 12:08:14,011 - INFO - Suppliers ranked based on total sales.
+2025-03-12 12:08:14,080 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 12:08:14,081 - INFO - Transaction processing completed.
+2025-03-12 12:08:14,084 - INFO - ETL pipeline execution completed successfully.
+2025-03-12 12:08:16,979 - ERROR - Error saving to Parquet: ("Expected bytes, got a 'int' object", 'Conversion failed for column StockCode with type object')
+2025-03-12 12:10:28,609 - INFO - Datasets loaded successfully. Retail data shape: (541909, 8), Supplier data shape: (25900, 2)
+2025-03-12 12:10:28,609 - INFO - Starting ETL pipeline...
+2025-03-12 12:10:28,609 - INFO - DataCleaner initialized with dataset of shape (541909, 8)
+2025-03-12 12:10:28,821 - INFO - Removed duplicates: 5268 rows removed. New shape: (536641, 8)
+2025-03-12 12:10:28,860 - INFO - Handled missing values: 135037 rows removed due to missing CustomerID. New shape: (401604, 8)
+2025-03-12 12:10:28,946 - INFO - Filtered valid transactions: 8872 canceled transactions removed. New shape: (392732, 8)
+2025-03-12 12:10:28,952 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8)
+2025-03-12 12:10:28,952 - INFO - TransactionProcessor initialized with transaction data of shape (392732, 8) and supplier data of shape (25900, 2)
+2025-03-12 12:10:28,955 - INFO - TotalAmount column added successfully.
+2025-03-12 12:10:28,971 - INFO - Transactions grouped by country successfully.
+2025-03-12 12:10:29,072 - INFO - Monthly statistics calculated successfully.
+2025-03-12 12:10:29,084 - INFO - Most profitable product in France: POSTAGE
+2025-03-12 12:10:29,104 - INFO - Busiest transaction hour: 12 h
+2025-03-12 12:10:29,162 - INFO - Suppliers ranked based on total sales.
+2025-03-12 12:10:29,211 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 12:10:29,211 - INFO - Transaction processing completed.
+2025-03-12 12:10:29,213 - INFO - ETL pipeline execution completed successfully.
+2025-03-12 12:10:29,603 - ERROR - Error saving to Parquet: ("Expected bytes, got a 'int' object", 'Conversion failed for column StockCode with type object')
+2025-03-12 12:11:53,779 - INFO - Datasets loaded successfully. Retail data shape: (541909, 8), Supplier data shape: (25900, 2)
+2025-03-12 12:11:53,779 - INFO - Starting ETL pipeline...
+2025-03-12 12:11:53,779 - INFO - DataCleaner initialized with dataset of shape (541909, 8)
+2025-03-12 12:11:53,988 - INFO - Removed duplicates: 5268 rows removed. New shape: (536641, 8)
+2025-03-12 12:11:54,033 - INFO - Handled missing values: 135037 rows removed due to missing CustomerID. New shape: (401604, 8)
+2025-03-12 12:11:54,129 - INFO - Filtered valid transactions: 8872 canceled transactions removed. New shape: (392732, 8)
+2025-03-12 12:11:54,137 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8)
+2025-03-12 12:11:54,137 - INFO - TransactionProcessor initialized with transaction data of shape (392732, 8) and supplier data of shape (25900, 2)
+2025-03-12 12:11:54,140 - INFO - TotalAmount column added successfully.
+2025-03-12 12:11:54,157 - INFO - Transactions grouped by country successfully.
+2025-03-12 12:11:54,270 - INFO - Monthly statistics calculated successfully.
+2025-03-12 12:11:54,284 - INFO - Most profitable product in France: POSTAGE
+2025-03-12 12:11:54,308 - INFO - Busiest transaction hour: 12 h
+2025-03-12 12:11:54,379 - INFO - Suppliers ranked based on total sales.
+2025-03-12 12:11:54,437 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 12:11:54,437 - INFO - Transaction processing completed.
+2025-03-12 12:11:54,440 - INFO - ETL pipeline execution completed successfully.
+2025-03-12 12:11:58,444 - ERROR - Error saving to Parquet: Can't infer object conversion type: 0         85123A
+1          71053
+2         84406B
+3         84029G
+4         84029E
+           ...  
+541904     22613
+541905     22899
+541906     23254
+541907     23255
+541908     22138
+Name: StockCode, Length: 392732, dtype: object
+2025-03-12 12:21:44,147 - INFO - Datasets loaded successfully. Retail data shape: (541909, 8), Supplier data shape: (25900, 2)
+2025-03-12 12:21:44,147 - INFO - Starting ETL pipeline...
+2025-03-12 12:21:44,147 - INFO - DataCleaner initialized with dataset of shape (541909, 8)
+2025-03-12 12:21:44,343 - INFO - Removed duplicates: 5268 rows removed. New shape: (536641, 8)
+2025-03-12 12:21:44,382 - INFO - Handled missing values: 135037 rows removed due to missing CustomerID. New shape: (401604, 8)
+2025-03-12 12:21:44,470 - INFO - Filtered valid transactions: 8872 canceled transactions removed. New shape: (392732, 8)
+2025-03-12 12:21:44,478 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8)
+2025-03-12 12:21:44,478 - INFO - TransactionProcessor initialized with transaction data of shape (392732, 8) and supplier data of shape (25900, 2)
+2025-03-12 12:21:44,482 - INFO - TotalAmount column added successfully.
+2025-03-12 12:21:44,497 - INFO - Transactions grouped by country successfully.
+2025-03-12 12:21:44,596 - INFO - Monthly statistics calculated successfully.
+2025-03-12 12:21:44,608 - INFO - Most profitable product in France: POSTAGE
+2025-03-12 12:21:44,628 - INFO - Busiest transaction hour: 12 h
+2025-03-12 12:21:44,686 - INFO - Suppliers ranked based on total sales.
+2025-03-12 12:21:44,738 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 12:21:44,738 - INFO - Transaction processing completed.
+2025-03-12 12:21:44,740 - INFO - ETL pipeline execution completed successfully.
+2025-03-12 12:21:45,045 - ERROR - Error saving to Parquet: Don't know how to convert data type: period[M]
+2025-03-12 12:24:42,742 - INFO - Datasets loaded successfully. Retail data shape: (541909, 8), Supplier data shape: (25900, 2)
+2025-03-12 12:24:42,742 - INFO - Starting ETL pipeline...
+2025-03-12 12:24:42,742 - INFO - DataCleaner initialized with dataset of shape (541909, 8)
+2025-03-12 12:24:42,949 - INFO - Removed duplicates: 5268 rows removed. New shape: (536641, 8)
+2025-03-12 12:24:42,991 - INFO - Handled missing values: 135037 rows removed due to missing CustomerID. New shape: (401604, 8)
+2025-03-12 12:24:43,072 - INFO - Filtered valid transactions: 8872 canceled transactions removed. New shape: (392732, 8)
+2025-03-12 12:24:43,078 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8)
+2025-03-12 12:24:43,078 - INFO - TransactionProcessor initialized with transaction data of shape (392732, 8) and supplier data of shape (25900, 2)
+2025-03-12 12:24:43,080 - INFO - TotalAmount column added successfully.
+2025-03-12 12:24:43,095 - INFO - Transactions grouped by country successfully.
+2025-03-12 12:24:43,194 - INFO - Monthly statistics calculated successfully.
+2025-03-12 12:24:43,205 - INFO - Most profitable product in France: POSTAGE
+2025-03-12 12:24:43,225 - INFO - Busiest transaction hour: 12 h
+2025-03-12 12:24:43,286 - INFO - Suppliers ranked based on total sales.
+2025-03-12 12:24:43,337 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 12:24:43,337 - INFO - Transaction processing completed.
+2025-03-12 12:24:43,340 - INFO - ETL pipeline execution completed successfully.
+2025-03-12 12:24:43,408 - ERROR - Error saving to Parquet: Can't infer object conversion type: 0         85123A
+1          71053
+2         84406B
+3         84029G
+4         84029E
+           ...  
+541904     22613
+541905     22899
+541906     23254
+541907     23255
+541908     22138
+Name: StockCode, Length: 392732, dtype: object
+2025-03-12 12:26:47,108 - INFO - Datasets loaded successfully. Retail data shape: (541909, 8), Supplier data shape: (25900, 2)
+2025-03-12 12:26:47,109 - INFO - Starting ETL pipeline...
+2025-03-12 12:26:47,109 - INFO - DataCleaner initialized with dataset of shape (541909, 8)
+2025-03-12 12:26:47,282 - INFO - Removed duplicates: 5268 rows removed. New shape: (536641, 8)
+2025-03-12 12:26:47,318 - INFO - Handled missing values: 135037 rows removed due to missing CustomerID. New shape: (401604, 8)
+2025-03-12 12:26:47,402 - INFO - Filtered valid transactions: 8872 canceled transactions removed. New shape: (392732, 8)
+2025-03-12 12:26:47,409 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8)
+2025-03-12 12:26:47,409 - INFO - TransactionProcessor initialized with transaction data of shape (392732, 8) and supplier data of shape (25900, 2)
+2025-03-12 12:26:47,411 - INFO - TotalAmount column added successfully.
+2025-03-12 12:26:47,425 - INFO - Transactions grouped by country successfully.
+2025-03-12 12:26:47,526 - INFO - Monthly statistics calculated successfully.
+2025-03-12 12:26:47,537 - INFO - Most profitable product in France: POSTAGE
+2025-03-12 12:26:47,559 - INFO - Busiest transaction hour: 12 h
+2025-03-12 12:26:47,618 - INFO - Suppliers ranked based on total sales.
+2025-03-12 12:26:47,666 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 12:26:47,666 - INFO - Transaction processing completed.
+2025-03-12 12:26:47,669 - INFO - ETL pipeline execution completed successfully.
+2025-03-12 12:26:48,262 - ERROR - Error saving to Parquet: Maximum recursion level reached
+2025-03-12 12:27:31,537 - INFO - Datasets loaded successfully. Retail data shape: (541909, 8), Supplier data shape: (25900, 2)
+2025-03-12 12:27:31,537 - INFO - Starting ETL pipeline...
+2025-03-12 12:27:31,537 - INFO - DataCleaner initialized with dataset of shape (541909, 8)
+2025-03-12 12:27:31,756 - INFO - Removed duplicates: 5268 rows removed. New shape: (536641, 8)
+2025-03-12 12:27:31,801 - INFO - Handled missing values: 135037 rows removed due to missing CustomerID. New shape: (401604, 8)
+2025-03-12 12:27:31,901 - INFO - Filtered valid transactions: 8872 canceled transactions removed. New shape: (392732, 8)
+2025-03-12 12:27:31,908 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8)
+2025-03-12 12:27:31,909 - INFO - TransactionProcessor initialized with transaction data of shape (392732, 8) and supplier data of shape (25900, 2)
+2025-03-12 12:27:31,911 - INFO - TotalAmount column added successfully.
+2025-03-12 12:27:31,928 - INFO - Transactions grouped by country successfully.
+2025-03-12 12:27:32,039 - INFO - Monthly statistics calculated successfully.
+2025-03-12 12:27:32,051 - INFO - Most profitable product in France: POSTAGE
+2025-03-12 12:27:32,071 - INFO - Busiest transaction hour: 12 h
+2025-03-12 12:27:32,128 - INFO - Suppliers ranked based on total sales.
+2025-03-12 12:27:32,176 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 12:27:32,176 - INFO - Transaction processing completed.
+2025-03-12 12:27:32,178 - INFO - ETL pipeline execution completed successfully.
+2025-03-12 12:27:33,633 - ERROR - Error saving to Parquet: Can't infer object conversion type: 0         85123A
+1          71053
+2         84406B
+3         84029G
+4         84029E
+           ...  
+541904     22613
+541905     22899
+541906     23254
+541907     23255
+541908     22138
+Name: StockCode, Length: 392732, dtype: object
+2025-03-12 12:28:24,978 - INFO - Datasets loaded successfully. Retail data shape: (541909, 8), Supplier data shape: (25900, 2)
+2025-03-12 12:28:24,978 - INFO - Starting ETL pipeline...
+2025-03-12 12:28:24,978 - INFO - DataCleaner initialized with dataset of shape (541909, 8)
+2025-03-12 12:28:25,206 - INFO - Removed duplicates: 5268 rows removed. New shape: (536641, 8)
+2025-03-12 12:28:25,286 - INFO - Handled missing values: 135037 rows removed due to missing CustomerID. New shape: (401604, 8)
+2025-03-12 12:28:25,437 - INFO - Filtered valid transactions: 8872 canceled transactions removed. New shape: (392732, 8)
+2025-03-12 12:28:25,452 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8)
+2025-03-12 12:28:25,452 - INFO - TransactionProcessor initialized with transaction data of shape (392732, 8) and supplier data of shape (25900, 2)
+2025-03-12 12:28:25,460 - INFO - TotalAmount column added successfully.
+2025-03-12 12:28:25,481 - INFO - Transactions grouped by country successfully.
+2025-03-12 12:28:25,684 - INFO - Monthly statistics calculated successfully.
+2025-03-12 12:28:25,698 - INFO - Most profitable product in France: POSTAGE
+2025-03-12 12:28:25,726 - INFO - Busiest transaction hour: 12 h
+2025-03-12 12:28:25,813 - INFO - Suppliers ranked based on total sales.
+2025-03-12 12:28:25,884 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 12:28:25,884 - INFO - Transaction processing completed.
+2025-03-12 12:28:25,887 - INFO - ETL pipeline execution completed successfully.
+2025-03-12 12:28:28,061 - ERROR - Error saving to Parquet: Can't infer object conversion type: 0         85123A
+1          71053
+2         84406B
+3         84029G
+4         84029E
+           ...  
+541904     22613
+541905     22899
+541906     23254
+541907     23255
+541908     22138
+Name: StockCode, Length: 392732, dtype: object
+2025-03-12 12:30:28,148 - INFO - Datasets loaded successfully. Retail data shape: (541909, 8), Supplier data shape: (25900, 2)
+2025-03-12 12:30:28,148 - INFO - Starting ETL pipeline...
+2025-03-12 12:30:28,148 - INFO - DataCleaner initialized with dataset of shape (541909, 8)
+2025-03-12 12:30:28,333 - INFO - Removed duplicates: 5268 rows removed. New shape: (536641, 8)
+2025-03-12 12:30:28,376 - INFO - Handled missing values: 135037 rows removed due to missing CustomerID. New shape: (401604, 8)
+2025-03-12 12:30:28,466 - INFO - Filtered valid transactions: 8872 canceled transactions removed. New shape: (392732, 8)
+2025-03-12 12:30:28,475 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8)
+2025-03-12 12:30:28,475 - INFO - TransactionProcessor initialized with transaction data of shape (392732, 8) and supplier data of shape (25900, 2)
+2025-03-12 12:30:28,478 - INFO - TotalAmount column added successfully.
+2025-03-12 12:30:28,505 - INFO - Transactions grouped by country successfully.
+2025-03-12 12:30:28,684 - INFO - Monthly statistics calculated successfully.
+2025-03-12 12:30:28,708 - INFO - Most profitable product in France: POSTAGE
+2025-03-12 12:30:28,746 - INFO - Busiest transaction hour: 12 h
+2025-03-12 12:30:28,848 - INFO - Suppliers ranked based on total sales.
+2025-03-12 12:30:28,937 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 12:30:28,937 - INFO - Transaction processing completed.
+2025-03-12 12:30:28,940 - INFO - ETL pipeline execution completed successfully.
+2025-03-12 12:30:29,281 - ERROR - Error saving to Parquet: Don't know how to convert data type: period[M]
+2025-03-12 12:32:02,193 - INFO - Datasets loaded successfully. Retail data shape: (541909, 8), Supplier data shape: (25900, 2)
+2025-03-12 12:32:02,193 - INFO - Starting ETL pipeline...
+2025-03-12 12:32:02,193 - INFO - DataCleaner initialized with dataset of shape (541909, 8)
+2025-03-12 12:32:02,369 - INFO - Removed duplicates: 5268 rows removed. New shape: (536641, 8)
+2025-03-12 12:32:02,405 - INFO - Handled missing values: 135037 rows removed due to missing CustomerID. New shape: (401604, 8)
+2025-03-12 12:32:02,488 - INFO - Filtered valid transactions: 8872 canceled transactions removed. New shape: (392732, 8)
+2025-03-12 12:32:02,494 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8)
+2025-03-12 12:32:02,494 - INFO - TransactionProcessor initialized with transaction data of shape (392732, 8) and supplier data of shape (25900, 2)
+2025-03-12 12:32:02,497 - INFO - TotalAmount column added successfully.
+2025-03-12 12:32:02,512 - INFO - Transactions grouped by country successfully.
+2025-03-12 12:32:02,610 - INFO - Monthly statistics calculated successfully.
+2025-03-12 12:32:02,621 - INFO - Most profitable product in France: POSTAGE
+2025-03-12 12:32:02,642 - INFO - Busiest transaction hour: 12 h
+2025-03-12 12:32:02,703 - INFO - Suppliers ranked based on total sales.
+2025-03-12 12:32:02,757 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-12 12:32:02,758 - INFO - Transaction processing completed.
+2025-03-12 12:32:02,761 - INFO - ETL pipeline execution completed successfully.
+2025-03-12 12:32:03,498 - INFO - Final processed data saved to Parquet: processed_data.parquet
+2025-03-13 09:24:07,887 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-13 09:24:07,896 - INFO - Filtered valid transactions: 1 canceled transactions removed. New shape: (4, 8)
+2025-03-13 09:24:07,898 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-13 09:24:07,902 - INFO - Removed duplicates: 1 rows removed. New shape: (4, 8)
+2025-03-13 09:24:07,905 - INFO - Handled missing values: 1 rows removed due to missing CustomerID. New shape: (3, 8)
+2025-03-13 09:24:07,906 - INFO - Filtered valid transactions: 0 canceled transactions removed. New shape: (3, 8)
+2025-03-13 09:24:07,907 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-13 09:24:07,908 - INFO - Handled missing values: 1 rows removed due to missing CustomerID. New shape: (4, 8)
+2025-03-13 09:24:07,909 - INFO - DataCleaner initialized with dataset of shape (5, 8)
+2025-03-13 09:24:07,909 - INFO - Removed duplicates: 1 rows removed. New shape: (4, 8)
+2025-03-13 10:00:17,777 - INFO - Datasets loaded successfully. Retail data shape: (541909, 8), Supplier data shape: (25900, 2)
+2025-03-13 10:00:17,777 - INFO - Starting ETL pipeline...
+2025-03-13 10:00:17,777 - INFO - DataCleaner initialized with dataset of shape (541909, 8)
+2025-03-13 10:00:18,023 - INFO - Removed duplicates: 5268 rows removed. New shape: (536641, 8)
+2025-03-13 10:00:18,076 - INFO - Handled missing values: 135037 rows removed due to missing CustomerID. New shape: (401604, 8)
+2025-03-13 10:00:18,181 - INFO - Filtered valid transactions: 8872 canceled transactions removed. New shape: (392732, 8)
+2025-03-13 10:00:18,189 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8)
+2025-03-13 10:00:18,189 - INFO - TransactionProcessor initialized with transaction data of shape (392732, 8) and supplier data of shape (25900, 2)
+2025-03-13 10:00:18,194 - INFO - TotalAmount column added successfully.
+2025-03-13 10:00:18,214 - INFO - Transactions grouped by country successfully.
+2025-03-13 10:00:18,355 - INFO - Monthly statistics calculated successfully.
+2025-03-13 10:00:18,373 - INFO - Most profitable product in France: POSTAGE
+2025-03-13 10:00:18,401 - INFO - Busiest transaction hour: 12 h
+2025-03-13 10:00:18,486 - INFO - Suppliers ranked based on total sales.
+2025-03-13 10:00:18,563 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-13 10:00:18,563 - INFO - Transaction processing completed.
+2025-03-13 10:00:18,566 - INFO - ETL pipeline execution completed successfully.
+2025-03-13 10:00:19,709 - INFO - Final processed data saved to Parquet: processed_data.parquet
+2025-03-13 10:32:03,640 - INFO - Datasets loaded successfully. Retail data shape: (541909, 8), Supplier data shape: (25900, 2)
+2025-03-13 10:32:03,641 - INFO - Starting ETL pipeline...
+2025-03-13 10:32:03,641 - INFO - DataCleaner initialized with dataset of shape (541909, 8)
+2025-03-13 10:32:03,931 - INFO - Removed duplicates: 5268 rows removed. New shape: (536641, 8)
+2025-03-13 10:32:03,984 - INFO - Handled missing values: 135037 rows removed due to missing CustomerID. New shape: (401604, 8)
+2025-03-13 10:32:04,102 - INFO - Filtered valid transactions: 8872 canceled transactions removed. New shape: (392732, 8)
+2025-03-13 10:32:04,110 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8)
+2025-03-13 10:32:04,111 - INFO - TransactionProcessor initialized with transaction data of shape (392732, 8) and supplier data of shape (25900, 2)
+2025-03-13 10:32:04,116 - INFO - TotalAmount column added successfully.
+2025-03-13 10:32:04,144 - INFO - Transactions grouped by country successfully.
+2025-03-13 10:32:04,288 - INFO - Monthly statistics calculated successfully.
+2025-03-13 10:32:04,306 - INFO - Most profitable product in France: POSTAGE
+2025-03-13 10:32:04,340 - INFO - Busiest transaction hour: 12 h
+2025-03-13 10:32:04,450 - INFO - Suppliers ranked based on total sales.
+2025-03-13 10:32:04,540 - INFO - Suppliers ranked based on total sales for 2011 in the UK.
+2025-03-13 10:32:04,540 - INFO - Transaction processing completed.
+2025-03-13 10:32:04,544 - INFO - ETL pipeline execution completed successfully.
+2025-03-13 10:32:05,865 - INFO - Final processed data saved to Parquet: processed_data.parquet

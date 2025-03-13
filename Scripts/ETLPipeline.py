@@ -76,7 +76,6 @@ class ETLPipeline:
                 "continent_with_most_cancellations": continent_with_most_cancellations
             }
             logging.info("ETL pipeline execution completed successfully.")
-            print(final_results)
             return final_results
 
         except Exception as e:

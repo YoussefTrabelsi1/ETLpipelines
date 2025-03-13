@@ -83,9 +83,7 @@ class TransactionProcessor:
         # Merge with supplier data using InvoiceNo
         df_merged = df_valid.merge(self.supplier_df, on='InvoiceNo', how='left')
         
-        # Debug: Check the merge result
-        print("Number of matched rows after merge:", df_merged['Fournisseur'].notna().sum())
-        print("Number of unmatched rows after merge:", df_merged['Fournisseur'].isna().sum())
+
         
         # Aggregate total sales per supplier
         df_supplier_sales = df_merged.groupby('Fournisseur')['TotalAmount'].sum().reset_index()
@@ -100,10 +98,6 @@ class TransactionProcessor:
         
         # Compute total sales for UK 2011
         df_uk_2011_merged = df_uk_2011.merge(self.supplier_df, on='InvoiceNo', how='left')
-        
-        # Debug: Check the UK 2011 merge result
-        print("Number of matched rows in UK 2011 after merge:", df_uk_2011_merged['Fournisseur'].notna().sum())
-        print("Number of unmatched rows in UK 2011 after merge:", df_uk_2011_merged['Fournisseur'].isna().sum())
         
         df_uk_2011_sales = df_uk_2011_merged.groupby('Fournisseur')['TotalAmount'].sum().reset_index()
         df_uk_2011_sales = df_uk_2011_sales.sort_values(by='TotalAmount', ascending=False)

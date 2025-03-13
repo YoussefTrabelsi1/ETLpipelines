@@ -637,3 +637,22 @@ Name: StockCode, Length: 392732, dtype: object
 2025-03-13 15:42:12,522 - INFO - Transaction processing completed.
 2025-03-13 15:42:12,524 - INFO - ETL pipeline execution completed successfully.
 2025-03-13 15:42:13,635 - INFO - Final processed data saved to Parquet: output/processed_data.parquet
+2025-03-13 15:44:36,218 - INFO - Datasets loaded successfully. Retail data shape: (536641, 8), Supplier data shape: (25900, 2)
+2025-03-13 15:44:36,218 - INFO - Starting ETL pipeline...
+2025-03-13 15:44:36,218 - INFO - DataCleaner initialized with dataset of shape (536641, 8)
+2025-03-13 15:44:36,498 - INFO - Removed duplicates: 0 rows removed. New shape: (536641, 8)
+2025-03-13 15:44:36,552 - INFO - Handled missing values: 135037 rows removed. New shape: (401604, 8)
+2025-03-13 15:44:36,875 - INFO - Separated canceled transactions. Valid transactions: (392732, 8), Canceled transactions: (8872, 8)
+2025-03-13 15:44:36,886 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8), Canceled transactions shape: (8872, 8)
+2025-03-13 15:44:36,886 - INFO - TransactionProcessor initialized with data shape (392732, 8), and canceled transactions shape (8872, 8)
+2025-03-13 15:44:36,892 - INFO - TotalAmount column added successfully.
+2025-03-13 15:44:36,918 - INFO - Transactions grouped by country successfully.
+2025-03-13 15:44:37,009 - INFO - Monthly statistics calculated successfully.
+2025-03-13 15:44:37,023 - INFO - Most profitable product in France: POSTAGE
+2025-03-13 15:44:37,064 - INFO - Busiest transaction hour: 12 h
+2025-03-13 15:44:37,804 - INFO - Supplier aggregation completed. Returning results.
+2025-03-13 15:44:37,963 - INFO - Continents ranked based on total spending.
+2025-03-13 15:44:37,964 - INFO - Continent with the highest number of cancellations: Europe
+2025-03-13 15:44:37,964 - INFO - Transaction processing completed.
+2025-03-13 15:44:37,966 - INFO - ETL pipeline execution completed successfully.
+2025-03-13 15:44:38,968 - INFO - Final processed data saved to Parquet: output/processed_data.parquet

@@ -95,7 +95,7 @@ class ETLPipeline:
     
             # Ensure numeric columns are properly formatted
             self.df = self.df.convert_dtypes()
-    
+
             # Save to Parquet with 'fastparquet' engine
             self.df.to_parquet(path, index=False, engine="fastparquet")
             logging.info("Final processed data saved to Parquet: %s", path)
@@ -103,6 +103,28 @@ class ETLPipeline:
         except Exception as e:
             logging.error("Error saving to Parquet: %s", str(e))
             raise RuntimeError("Failed to save Parquet file.") from e
+        
+    def save_semi_cleaned_json(self, path: str):
+        """Saves a semi-cleaned dataset (without duplicates and merged with continents/suppliers) to a JSON file."""
+        try:
+            # Step 1: Remove duplicates
+            semi_cleaned_df = self.raw_df.drop_duplicates().copy()
+
+            # Step 2: Merge with continent mapping
+            semi_cleaned_df = semi_cleaned_df.merge(self.continent_mapping, on="Country", how="left")
+
+            # Step 3: Merge with supplier data
+            semi_cleaned_df = semi_cleaned_df.merge(self.supplier_df, on="InvoiceNo", how="left")
+
+            # Step 4: Convert DataFrame to JSON
+            semi_cleaned_df.to_json(path, orient="records", indent=4)
+
+            logging.info("Semi-cleaned data saved to JSON: %s", path)
+
+        except Exception as e:
+            logging.error("Error saving semi-cleaned data to JSON: %s", str(e))
+            raise RuntimeError("Failed to save semi-cleaned dataset.") from e
+
 
 if __name__ == "__main__":
     
@@ -110,6 +132,9 @@ if __name__ == "__main__":
     #etl = ETLPipeline("data\onlie retail test.xlsx", "data/Supplier.csv","data/continent_mapping_full.csv")  # Paths to your datasets
     results = etl.run_pipeline()
     etl.save_as_parquet("output/processed_data.parquet")
+    # Save semi-cleaned dataset to JSON
+    etl.save_semi_cleaned_json("output/semi_cleaned_data.json")
+
  
     # Display key results
     print("Best-selling product in France:", results["best_product_in_france"])

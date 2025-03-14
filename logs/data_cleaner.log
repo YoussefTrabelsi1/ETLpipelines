@@ -656,3 +656,61 @@ Name: StockCode, Length: 392732, dtype: object
 2025-03-13 15:44:37,964 - INFO - Transaction processing completed.
 2025-03-13 15:44:37,966 - INFO - ETL pipeline execution completed successfully.
 2025-03-13 15:44:38,968 - INFO - Final processed data saved to Parquet: output/processed_data.parquet
+2025-03-13 22:30:28,211 - INFO - Datasets loaded successfully. Retail data shape: (536641, 8), Supplier data shape: (25900, 2)
+2025-03-13 22:30:28,211 - INFO - Starting ETL pipeline...
+2025-03-13 22:30:28,211 - INFO - DataCleaner initialized with dataset of shape (536641, 8)
+2025-03-13 22:30:28,498 - INFO - Removed duplicates: 0 rows removed. New shape: (536641, 8)
+2025-03-13 22:30:28,554 - INFO - Handled missing values: 135037 rows removed. New shape: (401604, 8)
+2025-03-13 22:30:28,837 - INFO - Separated canceled transactions. Valid transactions: (392732, 8), Canceled transactions: (8872, 8)
+2025-03-13 22:30:28,844 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8), Canceled transactions shape: (8872, 8)
+2025-03-13 22:30:28,844 - INFO - TransactionProcessor initialized with data shape (392732, 8), and canceled transactions shape (8872, 8)
+2025-03-13 22:30:28,849 - INFO - TotalAmount column added successfully.
+2025-03-13 22:30:28,874 - INFO - Transactions grouped by country successfully.
+2025-03-13 22:30:28,974 - INFO - Monthly statistics calculated successfully.
+2025-03-13 22:30:28,989 - INFO - Most profitable product in France: POSTAGE
+2025-03-13 22:30:29,035 - INFO - Busiest transaction hour: 12 h
+2025-03-13 22:30:29,639 - INFO - Supplier aggregation completed. Returning results.
+2025-03-13 22:30:29,760 - INFO - Continents ranked based on total spending.
+2025-03-13 22:30:29,762 - INFO - Continent with the highest number of cancellations: Europe
+2025-03-13 22:30:29,762 - INFO - Transaction processing completed.
+2025-03-13 22:30:29,764 - INFO - ETL pipeline execution completed successfully.
+2025-03-13 22:30:30,900 - INFO - Final processed data saved to Parquet: output/processed_data.parquet
+2025-03-13 22:34:33,403 - INFO - Datasets loaded successfully. Retail data shape: (536641, 8), Supplier data shape: (25900, 2)
+2025-03-13 22:34:33,403 - INFO - Starting ETL pipeline...
+2025-03-13 22:34:33,403 - INFO - DataCleaner initialized with dataset of shape (536641, 8)
+2025-03-13 22:34:33,645 - INFO - Removed duplicates: 0 rows removed. New shape: (536641, 8)
+2025-03-13 22:34:33,697 - INFO - Handled missing values: 135037 rows removed. New shape: (401604, 8)
+2025-03-13 22:34:33,978 - INFO - Separated canceled transactions. Valid transactions: (392732, 8), Canceled transactions: (8872, 8)
+2025-03-13 22:34:33,983 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8), Canceled transactions shape: (8872, 8)
+2025-03-13 22:34:33,983 - INFO - TransactionProcessor initialized with data shape (392732, 8), and canceled transactions shape (8872, 8)
+2025-03-13 22:34:33,983 - INFO - TotalAmount column added successfully.
+2025-03-13 22:34:34,013 - INFO - Transactions grouped by country successfully.
+2025-03-13 22:34:34,093 - INFO - Monthly statistics calculated successfully.
+2025-03-13 22:34:34,108 - INFO - Most profitable product in France: POSTAGE
+2025-03-13 22:34:34,145 - INFO - Busiest transaction hour: 12 h
+2025-03-13 22:34:34,781 - INFO - Supplier aggregation completed. Returning results.
+2025-03-13 22:34:34,896 - INFO - Continents ranked based on total spending.
+2025-03-13 22:34:34,900 - INFO - Continent with the highest number of cancellations: Europe
+2025-03-13 22:34:34,900 - INFO - Transaction processing completed.
+2025-03-13 22:34:34,903 - INFO - ETL pipeline execution completed successfully.
+2025-03-13 22:34:36,038 - INFO - Final processed data saved to Parquet: output/processed_data.parquet
+2025-03-13 22:35:25,345 - INFO - Datasets loaded successfully. Retail data shape: (536641, 8), Supplier data shape: (25900, 2)
+2025-03-13 22:35:25,345 - INFO - Starting ETL pipeline...
+2025-03-13 22:35:25,345 - INFO - DataCleaner initialized with dataset of shape (536641, 8)
+2025-03-13 22:35:25,623 - INFO - Removed duplicates: 0 rows removed. New shape: (536641, 8)
+2025-03-13 22:35:25,673 - INFO - Handled missing values: 135037 rows removed. New shape: (401604, 8)
+2025-03-13 22:35:25,968 - INFO - Separated canceled transactions. Valid transactions: (392732, 8), Canceled transactions: (8872, 8)
+2025-03-13 22:35:25,980 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8), Canceled transactions shape: (8872, 8)
+2025-03-13 22:35:25,980 - INFO - TransactionProcessor initialized with data shape (392732, 8), and canceled transactions shape (8872, 8)
+2025-03-13 22:35:25,987 - INFO - TotalAmount column added successfully.
+2025-03-13 22:35:26,003 - INFO - Transactions grouped by country successfully.
+2025-03-13 22:35:26,103 - INFO - Monthly statistics calculated successfully.
+2025-03-13 22:35:26,113 - INFO - Most profitable product in France: POSTAGE
+2025-03-13 22:35:26,163 - INFO - Busiest transaction hour: 12 h
+2025-03-13 22:35:26,793 - INFO - Supplier aggregation completed. Returning results.
+2025-03-13 22:35:26,925 - INFO - Continents ranked based on total spending.
+2025-03-13 22:35:26,925 - INFO - Continent with the highest number of cancellations: Europe
+2025-03-13 22:35:26,925 - INFO - Transaction processing completed.
+2025-03-13 22:35:26,933 - INFO - ETL pipeline execution completed successfully.
+2025-03-13 22:35:27,933 - INFO - Final processed data saved to Parquet: output/processed_data.parquet
+2025-03-13 22:35:30,093 - INFO - Semi-cleaned data saved to JSON: output/semi_cleaned_data.json

@@ -714,3 +714,23 @@ Name: StockCode, Length: 392732, dtype: object
 2025-03-13 22:35:26,933 - INFO - ETL pipeline execution completed successfully.
 2025-03-13 22:35:27,933 - INFO - Final processed data saved to Parquet: output/processed_data.parquet
 2025-03-13 22:35:30,093 - INFO - Semi-cleaned data saved to JSON: output/semi_cleaned_data.json
+2025-03-14 09:37:00,057 - INFO - Datasets loaded successfully. Retail data shape: (536641, 8), Supplier data shape: (25900, 2)
+2025-03-14 09:37:00,057 - INFO - Starting ETL pipeline...
+2025-03-14 09:37:00,062 - INFO - DataCleaner initialized with dataset of shape (536641, 8)
+2025-03-14 09:37:00,381 - INFO - Removed duplicates: 0 rows removed. New shape: (536641, 8)
+2025-03-14 09:37:00,455 - INFO - Handled missing values: 135037 rows removed. New shape: (401604, 8)
+2025-03-14 09:37:00,759 - INFO - Separated canceled transactions. Valid transactions: (392732, 8), Canceled transactions: (8872, 8)
+2025-03-14 09:37:00,759 - INFO - Data cleaning completed. Cleaned data shape: (392732, 8), Canceled transactions shape: (8872, 8)
+2025-03-14 09:37:00,759 - INFO - TransactionProcessor initialized with data shape (392732, 8), and canceled transactions shape (8872, 8)
+2025-03-14 09:37:00,759 - INFO - TotalAmount column added successfully.
+2025-03-14 09:37:00,798 - INFO - Transactions grouped by country successfully.
+2025-03-14 09:37:00,904 - INFO - Monthly statistics calculated successfully.
+2025-03-14 09:37:00,921 - INFO - Most profitable product in France: POSTAGE
+2025-03-14 09:37:00,964 - INFO - Busiest transaction hour: 12 h
+2025-03-14 09:37:01,558 - INFO - Supplier aggregation completed. Returning results.
+2025-03-14 09:37:01,691 - INFO - Continents ranked based on total spending.
+2025-03-14 09:37:01,701 - INFO - Continent with the highest number of cancellations: Europe
+2025-03-14 09:37:01,701 - INFO - Transaction processing completed.
+2025-03-14 09:37:01,701 - INFO - ETL pipeline execution completed successfully.
+2025-03-14 09:37:03,064 - INFO - Final processed data saved to Parquet: output/processed_data.parquet
+2025-03-14 09:37:04,746 - INFO - Semi-cleaned data saved to JSON: output/semi_cleaned_data.json

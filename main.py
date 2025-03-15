@@ -102,6 +102,7 @@ for _, row in sales_by_continent.iterrows():
         fill_opacity=0.6,
         popup=f"{row['Continent']}: {row['FormattedSales']}"
     ).add_to(m)
+    
 
 # Display Folium map
 st.write("🌍 **Sales by Continent (Map)**")

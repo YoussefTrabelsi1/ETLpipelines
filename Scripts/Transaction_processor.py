@@ -98,7 +98,6 @@ class TransactionProcessor:
         
         # Compute total sales for UK 2011
         df_uk_2011_merged = df_uk_2011.merge(self.supplier_df, on='InvoiceNo', how='left')
-        
         df_uk_2011_sales = df_uk_2011_merged.groupby('Fournisseur')['TotalAmount'].sum().reset_index()
         df_uk_2011_sales = df_uk_2011_sales.sort_values(by='TotalAmount', ascending=False)
         

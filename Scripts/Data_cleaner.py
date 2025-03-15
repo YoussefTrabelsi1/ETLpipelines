@@ -20,7 +20,6 @@ class DataCleaner:
     - handle_missing_values which handles missing values
     - filter_valid_transactions which filters out canceled orders
     """
- 
     def __init__(self, df: pd.DataFrame):
         """
         Initialize with the dataset.

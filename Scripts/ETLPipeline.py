@@ -125,7 +125,6 @@ class ETLPipeline:
             logging.error("Error saving semi-cleaned data to JSON: %s", str(e))
             raise RuntimeError("Failed to save semi-cleaned dataset.") from e
 
-
 if __name__ == "__main__":
     
     etl = ETLPipeline("data/Online Retail.xlsx", "data/Supplier.csv","data/continent_mapping_full.csv")  # Paths to your datasets

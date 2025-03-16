@@ -68,7 +68,7 @@ The project is implemented using **Python** with a structured **Object-Oriented 
 ## 📝 Installation & Usage
 
 ### ⚡ Prerequisites
-- Python 3.8+
+- Python 3.9+
 - Required Python packages listed in `requirements.txt`.
 
 ### ⚙ Setup

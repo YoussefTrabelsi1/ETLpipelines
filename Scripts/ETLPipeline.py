@@ -134,7 +134,6 @@ if __name__ == "__main__":
     # Save semi-cleaned dataset to JSON
     etl.save_semi_cleaned_json("output/semi_cleaned_data.json")
 
- 
     # Display key results
     print("Best-selling product in France:", results["best_product_in_france"])
     print("Busiest transaction hour:", results["busiest_transaction_hour"])

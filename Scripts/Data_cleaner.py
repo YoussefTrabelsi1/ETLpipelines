@@ -57,7 +57,6 @@ class DataCleaner:
         logging.info("Separated canceled transactions. Valid transactions: %s, Canceled transactions: %s",
                      self.df.shape, self.canceled_df.shape)
 
-
     def get_cleaned_data(self):
         """Retourne les données nettoyées et les transactions annulées."""
         return self.df, self.canceled_df

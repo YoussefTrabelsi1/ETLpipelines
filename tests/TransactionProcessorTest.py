@@ -5,7 +5,7 @@ import pandas as pd
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from Scripts import Transaction_processor as TransactionProcessor
+from Scripts import TransactionProcessor as TransactionProcessor
 
 class TransactionProcessorTest(unittest.TestCase):
     """Unit tests for the TransactionProcessor class."""

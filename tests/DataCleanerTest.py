@@ -5,7 +5,7 @@ import pandas as pd
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from Scripts import Data_cleaner as DataCleaner
+from Scripts import DataCleaner as DataCleaner
 
 class DataCleanerTest(unittest.TestCase):
     """Test unitaire pour la classe DataCleaner"""

@@ -56,5 +56,6 @@ class DataCleanerTest(unittest.TestCase):
         self.assertFalse(None in cleaner.df["Description"].values)  # Description remplacée
         self.assertFalse(any(cleaner.df["InvoiceNo"].astype(str).str.startswith("C")))  # Pas de transactions annulées
 
+
 if __name__=="__main__":
     unittest.main()

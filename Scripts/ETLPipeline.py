@@ -1,7 +1,7 @@
 import pandas as pd
 import logging
-from Data_cleaner import DataCleaner
-from Transaction_processor import TransactionProcessor
+from Scripts.DataCleaner import DataCleaner
+from Scripts.TransactionProcessor import TransactionProcessor
  
 # Configure logging
 logging.basicConfig(
@@ -124,6 +124,7 @@ class ETLPipeline:
         except Exception as e:
             logging.error("Error saving semi-cleaned data to JSON: %s", str(e))
             raise RuntimeError("Failed to save semi-cleaned dataset.") from e
+
 
 if __name__ == "__main__":
     

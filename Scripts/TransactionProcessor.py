@@ -122,4 +122,3 @@ class TransactionProcessor:
         logging.info("Continent with the highest number of cancellations: %s", continent_cancellations)
 
         return continent_sales, continent_cancellations
- 

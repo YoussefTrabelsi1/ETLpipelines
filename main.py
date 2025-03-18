@@ -106,4 +106,3 @@ for _, row in sales_by_continent.iterrows():
 # Display Folium map
 st.write("🌍 **Sales by Continent (Map) **")
 folium_static(m)
-

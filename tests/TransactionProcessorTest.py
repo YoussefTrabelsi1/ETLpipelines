@@ -61,6 +61,6 @@ class TransactionProcessorTest(unittest.TestCase):
         best_product, busiest_hour = processor.calcul_stat_data()
         self.assertEqual(best_product, "Product A")  # Produit A est le plus rentable en France
         self.assertEqual(busiest_hour, 8)  # Heure avec le plus de transactions
- 
+
 if __name__ == "__main__":
     unittest.main()
